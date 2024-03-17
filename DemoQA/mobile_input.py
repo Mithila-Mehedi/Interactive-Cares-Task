@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 import logging
 
@@ -32,3 +34,5 @@ def mobile_input_field_validation(driver, test_mobiles):
                 print("Test passed: No error message displayed for valid input")
             else:
                 print("Test failed: Error message should not be displayed for valid input")
+
+        time.sleep(1)
