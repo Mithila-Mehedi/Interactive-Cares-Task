@@ -47,4 +47,4 @@ test_states = {
 }
 
 
-test_subjects = ['a', 'math', 'chemistry', 'english']
+test_subjects = ['math', 'chemistry', 'english']
